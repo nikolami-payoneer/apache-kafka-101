@@ -1,0 +1,10 @@
+syntax = "proto3";
+package org.example.proto;
+
+option java_outer_classname = "OrderProto";
+
+message Order {
+  int64 id = 1;
+  string article = 2;
+  int32 amount = 3;
+}
